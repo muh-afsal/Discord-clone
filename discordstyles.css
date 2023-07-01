@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Noto+Sans:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Noto+Sans:ital,wght@0,100;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Lato:wght@300;400&family=Noto+Sans:ital,wght@0,100;0,600;1,200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainpic {
+    max-width: 100%;
+    min-height: 71.1vh;
+    background-image: url(dicord-resours/images/Discord.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+
+}
+@font-face {
+  font-family: "main font" ;
+  src: url(dicord-resours/fonts/SansPosterBold.ttf);
+}
+@font-face {
+    font-family: "gg sans" ;
+    src: url(dicord-resours/fonts/gg\ sans\ Bold.woff);
+  }
+  @font-face {
+    font-family: "gg sans regular" ;
+    src: url(dicord-resours/fonts/gg\ sans\ Regular.woff);
+  }
+  @font-face {
+    font-family: "gg sans medium" ;
+    src: url(dicord-resours/fonts/gg\ sans\ Regular.woff);
+  }
+  @font-face {
+    font-family: "ginto nord" ;
+    src: url(dicord-resours/fonts/DiscordFonts-master/Ginto-Nord/Ginto-Nord-700.woff2);
+  }
+  .header {
+    color: #ffffff;
+    width: 80%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo1 {
+    height: 50%;
+    width: 150px;
+    /* background-color: crimson; */
+    margin-top: 19Px;
+    margin-left: 43Px;
+}
+
+.logo1 img {
+    height: 23.1px;
+    width: 124px;
+}
+
+.h-labels {
+    height: 50%;
+    width: 50%;
+    /* background-color: aqua; */
+    /* margin-right: 15%; */
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 142px;
+    padding-right: 7%;
+
+
+}
+
+.h-labels a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    /* font-family: 'Gasoek One', sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 10Px;
+    margin-left: 39px;
+    letter-spacing: 1px;
+
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.log_btn {
+    width: 120px;
+    height: auto;
+    /* background-color: green; */
+
+
+}
+
+.loginbutton {
+    width: 67px;
+    height: 38px;
+    border-radius: 90px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 70px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.loginbutton:hover {
+    color: #404EED;
+}
+
+.mainhead {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* background-color: coral; */
+}
+
+.sub-box {
+    width: 50%;
+    height: 320px;
+    margin: 0 auto;
+    /* background-color: crimson; */
+    text-align: center;
+
+}
+
+#heading1 {
+    font-weight: 900;
+    color: #fff;
+    font-size: 56px;
+    font-family: "ginto nord";
+    margin-top: 122px;
+}
+    
+.mainparagraph{
+    width: 100%;
+    height: 90px;
+    /* background-color: blue; */
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: "gg sans medium";
+    line-height: 32px;
+    }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.dwbtn{
+    width: 290px;
+    height: 55px;
+    border-radius: 28px;
+    border: none;
+    margin-top: 36px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 82px;
+    padding-right: 30px;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    background-color: #ffffff;
+ 
+    
+}
+.down-download-button{
+    background-color:  #5865F2;
+    color: #fff;
+}
+.dwbtn:hover{
+    box-shadow: 0px 0px 20px 0.1px rgb(56, 56, 56);
+}
+#null{
+    height: 1000vh;
+}
+.download-button{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.opbtn{
+    width: 315px;
+    height: 57px;
+    border-radius: 30px;
+    border: none;
+    margin-top: -137px;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 397px;
+    background-color:#202122;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.opbtn:hover{
+    box-shadow: 0px 0px 10px 1px rgba(6, 6, 6, 0.623);
+    background-color:#343435;
+}
+.optext{
+    margin-left: 0px;
+    
+}
+.page2{
+     width: 100%;
+     height: 536px;
+     background-color: rgb(255, 255, 255);
+     padding-top: 144px;
+     display: flex;
+     
+        }
+.page2img{
+    width: 41%;
+    height: 400px;
+    background-image: url(dicord-resours/images/page2img.svg);
+    background-repeat:no-repeat;
+    /* background-color: black; */
+    float: left;
+    margin-top: -24px;
+    margin-left: 201px;
+    padding-bottom: 23px;
+}
+ 
+.page2text{
+    width: 25%;
+    height: 340px;
+    /* background-color: rgb(223, 78, 78); */
+    float: left;
+    margin-left: 153px;
+    margin-top: 34px;
+} 
+.pg2main-head{
+    font-size: 47px;
+    color: #000000;
+    font-family: "gg sans";
+    font-weight: 900;
+    line-height: 58px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px;
+    letter-spacing: 0.5px;
+    
+}  
+.pg2para{
+    font-family: "gg sans medium";
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 21px;
+    margin-left: -1px;
+
+}   
+.page3{
+    width: 100%;
+     height: 683px;
+     background-color:#F6F6F6;
+     display: flex;
+    align-items: center;
+  
+}
+.page3text{
+    width: 24%;
+    height: 271px;
+    /* background-color: #000000; */
+    margin-left: 193px;  
+    color: #fff;
+
+}
+.pg3main-head{
+    font-size: 47px;
+    color: #000000;
+    font-family: "gg sans";
+    font-weight: 900;
+    line-height: 58px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+.pg3para{
+    font-family: "gg sans medium";
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 21px;
+    margin-left: -1px;
+    color: #000000;
+    margin-left: 10px;
+}
+.page3img{
+    width: 41%;
+    height: 390px;
+    /* background-color: #000000; */
+    margin-left: 137px;
+    background-image: url(dicord-resours/images/page3img.svg);
+    background-repeat:no-repeat;
+    background-size: 677px;
+    background-position: center;
+    padding-left: 14px;
+} 
+
+
+.page4{
+    width: 100%;
+     height: 680px;
+     background-color: #fff;
+     display: flex;
+     align-items: center;
+     
+}
+.page4img{
+    width: 52%;
+    height: 445px;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    background-image: url(dicord-resours/images/page4img.svg);
+    background-size: 677px;
+    background-position: 202px  5px;
+     
+}
+.page4text{
+    width: 25%;
+    height: 340px;
+    /* background-color: rgb(223, 78, 78); */
+    float: left;
+    margin-left: 179px;
+    margin-top: 72px;
+
+} 
+.pg4main-head{
+    font-size: 47px;
+    color: #000000;
+    font-family: "gg sans";
+    font-weight: 900;
+    line-height: 58px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px;
+    letter-spacing: 0.5px;
+    
+}  
+.pg4para{
+    font-family: "gg sans medium";
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 21px;
+    margin-left: -1px;
+}
+.page5{
+    width: 100%;
+    height: 1333.55px;
+     background-color: #F6F6F6;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding-bottom: 10px;
+    
+ 
+}
+.page5 img{
+    width: 74.4%;
+    height: min-content;
+    margin-top: -131px;
+/* background-color: #F6F6F6; */
+
+
+}
+
+.pg5heading{
+    font-weight: 900;
+    color:#000000;
+    font-size: 20px;
+    font-family: "ginto nord";
+    padding-top: 115px;
+    
+}
+.pg5para{
+    font-family: "gg sans medium";
+    font-size: 20px;
+    color: #000000;
+    line-height: 32px;
+    padding-top: 18px;
+ 
+}
+.pg5img{
+    width: 100%;
+    /* background-color: #000000; */
+   padding-left: 73%px;
+
+}
+.pg5maindw{
+   
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-color: cadetblue;
+}
+.pg5dwndiv{
+    width: 33.5%;
+    height: 237px;
+    /* background-color: #c1c5ef; */
+    background-image: url(dicord-resours/images/page5dw.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-top: -72px;
+    flex-direction: column;
+    
+}
+#pg5sbhdg{
+    margin-top: 26px;
+    font-family: "gg sans";
+    font-size: 32px;
+    
+}
+.pg5dwbtn{
+    margin-top: 9px;
+    margin-left: 39px;
+}
+
+
+.footer-container{
+    width: 100%;
+    height: 611px;
+    background-color: #23272A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_list{
+    width: 80%;
+    height: 77%;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    margin-top: 24px;
+}
+.selection{
+    /* background: green; */
+    margin-left: 38px;
+    margin-top: 21px;
+}
+#selection{
+    width: 69%;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.product{
+    /* background:burlywood; */
+    margin-left: 97px;
+}
+.company{
+    /* background: teal; */
+    margin-left: 66px;
+
+}
+.resources{
+    margin-left: 37px;
+    /* background: gray; */
+    width: 102%;
+}
+.policies{
+    /* background: cornflowerblue; */
+    margin-left: 4px;
+}
+
+.bottom{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    /* background-color: aqua; */
+}
+.footer h4{
+    color: #5865F2;
+    font-family: "gg sans regular" ;
+}
+ .footer a{
+text-decoration: none;
+list-style:none;
+line-height: 32.3px;
+padding-top: 0px;
+color: #ffffff;
+font-family: "gg sans regular" ;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.sub{
+    margin-top: 16px;
+  margin-left: 0px;
+}
+.footer-bottom{
+    width: 343%;
+    height: 64px;
+    /* background-color: crimson; */
+    margin: 0 auto;
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #5865F2;
+    margin-left: 41px;
+}
+#discord-logo{
+    height: 23.5px;
+    margin-top: 40px;
+}
+#sign-in-button{
+    border-radius: 20px; 
+    width: 78px;
+    height: 39px;
+    margin-right: 1px;
+    margin-top: 36px;
+    color: #ffffff;
+    background-color: #5865F2;
+    font-family: "gg sans regular" ;
+    border: #5865F2;
+}
+#sign-in-button:hover{
+    background-color: #828bf2;
+}
